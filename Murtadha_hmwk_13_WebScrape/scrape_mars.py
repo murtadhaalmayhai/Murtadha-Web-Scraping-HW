@@ -5,7 +5,7 @@ import pandas as pd
 import time
 import re
 
-executable_path = {'executable_path': '/usr/local/bin/chromedriver'}
+executable_path = {'executable_path': 'C:\\Users\\Murtadha Almayahi\\Documents\\Python Scripts\\chromedriver.exe'}
 browser = Browser('chrome', **executable_path, headless=False)
 
 # NASA Mars News
